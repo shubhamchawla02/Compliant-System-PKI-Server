@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Group 3</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<style>
+        
+        html {
+            
+            box-sizing: border-box;
+            width:100%;
+            overflow-x:hidden;
+            height:0px;
+            padding:0px;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            margin-bottom: 15px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height:402px;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+                background-color: #555;
+        }
+        
+        nav {
+        background: linear-gradient(-40deg, #ac4922, #831911, #1f0113, #61615f);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+        
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    body {
+        background-image: url('https://wallpaperaccess.com/full/1109099.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        line-height: 45px;
+        color: none
+    }
+
+    .navbar-new, .navbar-new:hover {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-left: 1rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        color: white;
+        
+    }
+    .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+</style>
+</head>
+
+<body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-new" href="upload.html">Algonquin Bank</a>
+                <a class="navbar-new" href="project.html">Project Info</a>
+                <a class="navbar-new" href="about.html">Group 3</a>
+            </div>
+    </nav>
+
+    <footer class="footer">
+        <div class="container" style:"text-dark">
+            &copy; 2022 - CST8805 - Group 3 Project
+        </div>
+    </footer>
+    <div class="container">
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+                integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+                integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+                <p></p>
+                <h2 style="font-family:Times New Roman,serif;text-align:center">CST8805 Applied Cryptography - Final Project Group 3</h2>
+                <br>
+                <p></p>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img src="shubh.jpg" alt="Shubham" style="width:80%;height:100%;margin-left:32px;margin-top:15px">
+                            <div class="container">
+                                <h1 style="font-family: Times New Roman,serif; text-align:center; font-size:25px"><b>Shubham Chawla</b></h1>
+                                <p style ="text-align:center">chaw0021</p>
+                                <p><a href='https://www.linkedin.com/in/shubhamchawla02/'><button class="button">LinkedIn</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="card">
+                            <img src="sachin.jpg" alt="Sachin" style="width:80%;height:100%;margin-left:32px;margin-top:15px">
+                            <div class="container">
+                                <h1 style="font-family: Times New Roman,serif; text-align:center; font-size:25px"><b>Sachin Mahajan</b></h1>
+                                <p style ="text-align:center">maha0124</p>
+                                <p><a href='https://www.linkedin.com/in/sachin2510'><button class="button">LinkedIn</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <img src="ayca.jpg" alt="Ayca" style="width:80%;height:251px;margin-left:32px;margin-top:15px">
+                            <div class="container">
+                                <h1 style="font-family:Times New Roman,serif; text-align:center; font-size:25px"><b>Gonca Ayca Karasu</b></h1>
+                                <p style ="text-align:center">kara0198</p>
+                                <p><a href='https://www.linkedin.com/in/gonca-ayca-karasu/'><button class="button">LinkedIn</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="column">
+                        <div class="card">
+                            <img src="manav.jpg" alt="Manav" style="width:80%;height:100%;margin-left:32px;margin-top:15px">
+                            <div class="container">
+                                <h1 style="font-family:Times New Roman,serif; text-align:center; font-size:25px"><b>Manav Modi</b></h1>
+                                <p style ="text-align:center">modi0010</p>
+                                <p><a href='https://www.linkedin.com/in/manav-modi-861327186/'><button class="button">LinkedIn</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+</body>
+
+
+
+</html>
+

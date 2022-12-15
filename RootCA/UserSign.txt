@@ -1,0 +1,2 @@
+keyUsage=digitalSignature, nonRepudiation
+crlDistributionPoints=URI:http://www.group3project.csa/CAProject.crl 

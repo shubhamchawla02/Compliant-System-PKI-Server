@@ -1,0 +1,4 @@
+keyUsage=digitalSignature
+extendedKeyUsage=serverAuth
+crlDistributionPoints=URI:http://www.group3project.csa/CAProject.crl
+subjectAltName=DNS:www.group3project.csa
