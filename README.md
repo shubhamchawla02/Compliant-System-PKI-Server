@@ -6,3 +6,6 @@ PKI - Windows 10 VM
 Web Server - Cent OS VM
 
 Client - Windows 11
+
+Landing Page
+![image](https://user-images.githubusercontent.com/39587926/216796855-89de44e0-34ad-49f2-b18b-e93835f452b7.png)
